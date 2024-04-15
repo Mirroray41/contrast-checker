@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrast Checker</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="split">
+        <h1 id="left">Contrast</h1>
+        <h1 id="right">Checker</h1>
+    </div>
+    <div class="grid">
+        <div id="foreground">
+            <h2>Foreground</h2>
+            <input type="color" name="foreground" id="fg_color" value="#000000">
+        </div>
+        <div id="background">
+            <h2>Background</h2>
+            <input type="color" name="background" id="bg_color" value="#ffffff">
+        </div>
+        <div id="spacer_left"></div>
+        <div id="spacer_right"></div>
+        <div id="result_left">
+            <div>
+                <h3>AA:</h3>
+                <h4 class="aa"></h4>
+            </div>
+            <div>
+                <h3>AALarge:</h3>
+                <h4 class="aalarge"></h4>
+            </div>
+            <div>
+                <h3>AAA:</h3>
+                <h4 class="aaa"></h4>
+            </div>
+            <div>
+                <h3>AAALarge:</h3>
+                <h4 class="aaalarge"></h4>
+            </div>
+        </div>
+        <div id="result_right">
+            <div>
+                <h3>AA:</h3>
+                <h4 class="aa"></h4>
+            </div>
+            <div>
+                <h3>AALarge:</h3>
+                <h4 class="aalarge"></h4>
+            </div>
+            <div>
+                <h3>AAA:</h3>
+                <h4 class="aaa"></h4>
+            </div>
+            <div>
+                <h3>AAALarge:</h3>
+                <h4 class="aaalarge"></h4>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
